@@ -2,6 +2,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: #ddd;
+}
 .first-section {
     width: 80%;
     margin-left: auto;
@@ -20,26 +23,46 @@
     color: #686868;
     font-size: 18px;
     text-align: center;
-    margin-bottom: 50px;
 }
 
 
 .first-section-container {
     display: block;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    height: 500px;
 }
 .first-section-container__text {
     display: inline-block;
-    width: 40%;
+    width: 39%;
+    background-color: white;
+    height: 100%;
 }
 .first-section-container__imageText{
     display: inline-block;
-    width: 60%;
+    width: 59%;
+    background-image: url("./../assets/girl-and-teacher.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.first-section-container__imageText h4{
+    font-family: 'Brandon Grotesque';
+    color: #fff;
+    font-size: 13px;
+}
+.first-section-container__imageText a{
+    text-decoration: none;
+    font-family: Georgia;
+    color: #fff;
+    font-size: 30px;
+}
+.first-section-container__imageText a:hover{
+    color: #FFC40C;
 }
 
-.first-section-picturesWrapper{
-    padding-top: 0;
-    margin-top: 0;
-}
+
 .first-section-picturesWrapper a{
     text-decoration: none;
 }
@@ -64,13 +87,15 @@
 }
 .first-section-picturesWrapper .second-picture{
     display: inline-block;
-    position: static;
     width: 48%;
 }
 .first-section-picturesWrapper img{
     background-color: #FFC40C;
     padding-bottom: 10px;
     margin: 0px 10px 0px 10px;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .first-section-picturesWrapper .first-picture img{
