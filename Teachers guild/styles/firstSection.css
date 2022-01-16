@@ -81,13 +81,12 @@ body {
 
 
 .first-section-picturesWrapper{
-    padding: 0px 10px;
+    padding: 5px 10px;
 }
 .first-section-picturesWrapper a{
     text-decoration: none;
     padding: 5px;
 }
-
 .first-section-picturesWrapper p{
     font-family: Arial;
     color: #686868;
@@ -98,28 +97,30 @@ body {
     font-family: Georgia;
     color: #273c48;
     font-size: 33px;
-    margin: 50px 40px 0px 40px;
+    margin: 0px 40px 0px 40px;
 }
 .first-section-picturesWrapper a:hover h3{
     color: #FFC40C;
 }
-.first-section-picturesWrapper .first-picture{
+.first-picture{
     display: inline-block;
     width: 48%;
     margin-left: 20px;
+    margin-top: 0px;
 }
-.first-section-picturesWrapper .second-picture{
+.second-picture{
     display: inline-block;
     width: 48%;
 }
 .first-section-picturesWrapper img{
+    display: inline-block;
     background-color: #FFC40C;
     padding-bottom: 10px;
+    margin-bottom: 40px;
     height: 300px;
     width: 100%;
     object-fit: cover;
 }
-
-.first-section-picturesWrapper .first-picture img{
+.first-picture img{
     float: right;
 }
