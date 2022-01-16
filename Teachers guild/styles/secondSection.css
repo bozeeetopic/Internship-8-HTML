@@ -1,8 +1,7 @@
 .second-section{
-    padding: 0;
-    margin: 0;
-    height: 298px;
+    height: 400px;
     width:100%;
+    margin-bottom: 200px;
 }
 
 .second-section-first-half{
@@ -13,7 +12,6 @@
 }
 
 .second-section-second-half{
-    position: static;
     display: block;
     float: right;
     background-image: url("./../assets/karen-talking-to-the-manager.jpg");
@@ -21,16 +19,14 @@
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
-.second-section-first-half h3{
-    font-weight: 100;
+.second-section-first-half p{
     font-size: 40px;
-    line-height: 48px;
     text-align: left;
-    padding: 40px 20px 40px 40px;
-    position: static;
-    font-family: Jubilat, Georgia, sans-serif;
+    padding: 120px 120px 120px 120px;
+    font-family: Georgia;
     color: #2a2a2a;
-    font-weight: 100;
+    font-weight: 100 !important;
 }

@@ -1,65 +1,78 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 .first-section {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 .first-section-headerWrapper h1{
-    font-family: Jubilat, Georgia, sans-serif;
+    font-family: Georgia;
     color: #273c48;
     font-size: 50px;
     text-align: center;
     font-weight: 100;
-    line-height: 0%;
+    margin: 40px 40px 8px 40px;
 }
 .first-section-headerWrapper p{
-    font-family: Lato, Arial, sans-serif;
+    font-family: Arial;
     color: #686868;
     font-size: 18px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 
 .first-section-container {
-
+    display: block;
 }
 .first-section-container__text {
     display: inline-block;
     width: 40%;
 }
 .first-section-container__imageText{
-    position: static;
-    display: block;
-    float: right;
+    display: inline-block;
     width: 60%;
 }
 
+.first-section-picturesWrapper{
+    padding-top: 0;
+    margin-top: 0;
+}
 .first-section-picturesWrapper a{
     text-decoration: none;
 }
 .first-section-picturesWrapper p{
-    font-family: Lato, Arial, sans-serif;
+    font-family: Arial;
     color: #686868;
     font-size: 18px;
+    margin: 20px 40px 200px 40px;
 }
 .first-section-picturesWrapper h3{
-    font-family: Jubilat, Georgia, sans-serif;
+    font-family: Georgia;
     color: #273c48;
     font-size: 33px;
+    margin: 50px 40px 0px 40px;
 }
 .first-section-picturesWrapper a:hover h3{
     color: #FFC40C;
 }
 .first-section-picturesWrapper .first-picture{
     display: inline-block;
-    width: 50%;
+    width: 48%;
 }
 .first-section-picturesWrapper .second-picture{
+    display: inline-block;
     position: static;
-    display: block;
-    float: right;
-    width: 50%;
+    width: 48%;
 }
 .first-section-picturesWrapper img{
     background-color: #FFC40C;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    margin: 0px 10px 0px 10px;
+}
+
+.first-section-picturesWrapper .first-picture img{
+    float: right;
 }

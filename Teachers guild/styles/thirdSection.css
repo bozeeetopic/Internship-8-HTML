@@ -4,16 +4,17 @@
     margin-left: auto;
 }
 
-.third-section h1{
-    font-family: Jubilat, Georgia, sans-serif;
+.third-section h3{
+    font-family: Georgia;
     color: #273c48;
     font-size: 50px;
     text-align: center;
 }
 
 .third-section p{
-    font-family: 'Brandon Grotesque', Arial, sans-serif;
+    font-family: 'Brandon Grotesque';
     color: #979797;
     font-size: 11px;
     text-align: center;
+    margin: 10px;
 }
